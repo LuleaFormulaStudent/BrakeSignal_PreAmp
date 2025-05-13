@@ -5,6 +5,128 @@
 	(uuid "230ee897-3e86-40e2-9127-469c3cbe993e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -234,6 +356,156 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Zener_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener_Small"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Zener_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1752,19 +2024,123 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "f_c = 160kHz"
+	(rectangle
+		(start 180.34 66.04)
+		(end 245.11 165.1)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 15598ce8-6fb7-40b4-ba4f-2039e194de09)
+	)
+	(rectangle
+		(start 106.68 100.33)
+		(end 128.27 177.8)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 180108a6-4fbb-4957-8402-1d3a2808d728)
+	)
+	(rectangle
+		(start 72.39 100.33)
+		(end 97.79 177.8)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9ddb961e-f040-4215-81c9-d0fb33b4568b)
+	)
+	(rectangle
+		(start 251.46 66.04)
+		(end 275.59 165.1)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c2746068-e7a9-4b99-a05d-130895884dc6)
+	)
+	(rectangle
+		(start 22.86 92.71)
+		(end 60.96 182.88)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ceda7b9b-e096-411c-b23a-86161c3f8be4)
+	)
+	(rectangle
+		(start 133.35 72.39)
+		(end 175.26 170.18)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dc18f569-65ed-45eb-91a4-84b5106264aa)
+	)
+	(text "Brake Pressure Sensors\nBPS"
 		(exclude_from_sim no)
-		(at 189.992 123.698 0)
+		(at 23.368 88.392 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "2228b6c2-b61b-4251-a4ea-51747c7da409")
+	)
+	(text "LP Filter"
+		(exclude_from_sim no)
+		(at 117.602 96.774 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "248ff4ad-287e-45cb-bd66-6b7de2f6171b")
+	)
+	(text "GND if there is an issue"
+		(exclude_from_sim no)
+		(at 120.396 55.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "47d009fc-0a20-4058-9b2a-325cd1ae5e39")
+		(uuid "26362166-4490-49d7-8fc8-16becfd25c20")
 	)
-	(text "R1 (Ω)	R2 (Ω)	Gain = 1 + R2/R1\n10 kΩ	8.2 kΩ	1.82\n4.7 kΩ	3.9 kΩ	1.83\n3.3 kΩ	2.7 kΩ	1.82\n2.2 kΩ	1.8 kΩ	1.82"
+	(text "(a) Failures of signals transmitted by cable:\n• Open circuit (<0.75V)\n• Short circuit to ground (<0.75V)\n(b) Failures of analog sensor signals transmitted by cable:\n• Short circuit to supply voltage (>4.25V)"
 		(exclude_from_sim no)
-		(at 115.062 149.352 0)
+		(at 37.846 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32cc5379-d23c-437c-8645-1bdf4fdcb9be")
+	)
+	(text "Gain = 1 + R2/R1\n"
+		(exclude_from_sim no)
+		(at 148.082 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1773,9 +2149,19 @@
 		)
 		(uuid "4c1c9ca9-4ec1-4a9e-af6e-675eda0a90ef")
 	)
+	(text "R2"
+		(exclude_from_sim no)
+		(at 160.02 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63c2cb30-6e45-4c1a-a368-64620c03346f")
+	)
 	(text "Signal amplifier"
 		(exclude_from_sim no)
-		(at 138.938 98.806 0)
+		(at 157.48 125.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1783,9 +2169,40 @@
 		)
 		(uuid "6fe84192-ccb5-4516-843d-448b10a4630d")
 	)
+	(text "R1"
+		(exclude_from_sim no)
+		(at 143.002 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70c703d8-24a6-4019-8576-8da125546ce8")
+	)
+	(text "Output to BSPD"
+		(exclude_from_sim no)
+		(at 262.636 63.246 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "7ebc3c76-c522-49e0-9c76-139ecd0a486b")
+	)
+	(text "IN+ greater than IN- gives Logic high output (high impedence)\nIN- > IN+ gives output = GND\n\n"
+		(exclude_from_sim no)
+		(at 25.654 29.718 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7fd8c8c5-5047-47ce-a811-6228c7afbcee")
+	)
 	(text "Output to BSPD:\nNormally high\nHigh when healty"
 		(exclude_from_sim no)
-		(at 260.096 94.996 0)
+		(at 255.016 121.666 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1794,9 +2211,71 @@
 		)
 		(uuid "86d771e1-6e6b-405e-9eff-0ca2f2545d3c")
 	)
+	(text "Signal amplifier"
+		(exclude_from_sim no)
+		(at 153.924 69.85 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "a359e8f9-816e-4fa4-8593-3d681e6e1125")
+	)
+	(text "Buffer Stage\n"
+		(exclude_from_sim no)
+		(at 86.614 96.266 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "c3531299-7100-4029-b7c7-67a58429c90c")
+	)
+	(text "Gain = 1 + R2/R1\n"
+		(exclude_from_sim no)
+		(at 143.764 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce47d5da-6bfa-4228-8136-d59080ea2b40")
+	)
+	(text "Comparator\nIs hard enough braking accuring?"
+		(exclude_from_sim no)
+		(at 187.96 61.468 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "e42f4fd3-35cc-4880-b850-c75871204e3d")
+	)
+	(text "f_c = 160kHz"
+		(exclude_from_sim no)
+		(at 115.57 159.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efa2f2c0-9ef2-4367-8667-294c043fb39f")
+	)
+	(text "f_c = 160kHz"
+		(exclude_from_sim no)
+		(at 116.84 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f9b6bbfc-1c5d-4a8e-abce-487b0d8781ee")
+	)
 	(text "R2"
 		(exclude_from_sim no)
-		(at 143.51 116.078 0)
+		(at 158.75 141.478 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1806,7 +2285,7 @@
 	)
 	(text "R1"
 		(exclude_from_sim no)
-		(at 122.936 120.396 0)
+		(at 141.732 145.542 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1815,50 +2294,188 @@
 		(uuid "feb96ae8-5bcc-4b28-92a0-63665a2bfba1")
 	)
 	(junction
-		(at 228.6 138.43)
+		(at 238.76 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0743f3fe-eac1-45a3-a4a2-9e8498ffe6ac")
 	)
 	(junction
-		(at 69.85 135.89)
+		(at 170.18 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34a0ce0f-f812-4a24-b1c6-60626dc6f2a6")
+		(uuid "1ddd04a1-ef91-4948-9dc9-6026e0737204")
 	)
 	(junction
-		(at 133.35 123.19)
+		(at 190.5 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2124502a-66fa-4960-a514-cb264d76c0c3")
+	)
+	(junction
+		(at 68.58 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23ec4b40-4ca4-4ad6-9229-1ef9e291a1c0")
+	)
+	(junction
+		(at 140.97 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26307de3-f3ab-4f4e-aea5-c3335d3edceb")
+	)
+	(junction
+		(at 240.03 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2852e478-74df-47d8-b6c8-99072865ac11")
+	)
+	(junction
+		(at 256.54 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37704c51-2189-414c-98ef-08eb46ed4ba8")
+	)
+	(junction
+		(at 190.5 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39b92258-2dee-4897-b6a5-6252c230735c")
+	)
+	(junction
+		(at 106.68 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d2b6476-2fdc-48db-8b10-cf75d02af241")
+	)
+	(junction
+		(at 68.58 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "565e43ed-6fb1-4e93-8f5d-37ba1d73cbca")
+	)
+	(junction
+		(at 67.31 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ce681cc-8df8-4d2f-92dd-3dbe3ed32bc2")
+	)
+	(junction
+		(at 116.84 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63e869ef-2f04-4505-be9d-19d05f64c6f3")
+	)
+	(junction
+		(at 106.68 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a48b3ac-4f0a-40c8-8e30-8ae418da5637")
+	)
+	(junction
+		(at 256.54 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e7e6173-6ff9-485b-bfb7-b1e695a76d3c")
+	)
+	(junction
+		(at 148.59 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e8b4862-d690-429b-8e24-f2456c1c5b56")
 	)
 	(junction
-		(at 93.98 138.43)
+		(at 223.52 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "707ff973-e3eb-487e-a869-f550855975ae")
+	)
+	(junction
+		(at 93.98 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f0b2bd5-160c-475b-abcb-e31f0d0b3aeb")
 	)
 	(junction
-		(at 187.96 125.73)
+		(at 118.11 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9f87c71a-946e-4bd3-a777-f359ab217d4f")
+		(uuid "92e6abe9-8c8b-45b7-99d3-ab8679b99211")
 	)
 	(junction
-		(at 175.26 147.32)
+		(at 184.15 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cbb905a5-6505-4c96-86a8-b49f3072578d")
+		(uuid "98e3fe4f-b175-4cab-ac75-7ca8adc53d04")
 	)
 	(junction
-		(at 154.94 125.73)
+		(at 113.03 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff70f107-ff23-4506-9be4-6444387256d9")
+		(uuid "9d77df2b-d48c-4181-9983-e6d52317dfed")
+	)
+	(junction
+		(at 200.66 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a15fdc40-c5e3-422d-8370-1913bf441663")
+	)
+	(junction
+		(at 223.52 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a847207d-ef22-4e37-a65f-6fe8cde1b67a")
+	)
+	(junction
+		(at 171.45 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab6adf05-19ae-4414-a2d5-d18ec9b7938a")
+	)
+	(junction
+		(at 140.97 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4e858a0-19f0-4ac7-b144-2c4cd3524521")
+	)
+	(junction
+		(at 201.93 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b62430e2-4167-42c0-b72f-ea7f9c8d275b")
+	)
+	(junction
+		(at 48.26 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc43e449-7c8a-44b2-9842-34947fad054e")
+	)
+	(junction
+		(at 95.25 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbbae4e5-bd4d-4979-81c5-ebe288b702b6")
+	)
+	(junction
+		(at 182.88 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de2ef413-f2e7-45e8-8170-5ed725703de3")
+	)
+	(junction
+		(at 106.68 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f63c18-52d8-4205-99b4-2cd3c62085cb")
+	)
+	(junction
+		(at 149.86 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0956197-8673-4fc5-989e-7ddca65293c5")
 	)
 	(wire
 		(pts
-			(xy 31.75 138.43) (xy 40.64 138.43)
+			(xy 40.64 163.83) (xy 49.53 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1868,7 +2485,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 138.43) (xy 134.62 138.43)
+			(xy 87.63 77.47) (xy 90.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0436d58b-4fee-4172-9c58-86e4327b5e32")
+	)
+	(wire
+		(pts
+			(xy 93.98 163.83) (xy 106.68 163.83)
 		)
 		(stroke
 			(width 0)
@@ -1878,17 +2505,127 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 135.89) (xy 77.47 135.89)
+			(xy 31.75 66.04) (xy 29.21 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17352d31-6393-4a3d-8e63-441a66d1a140")
+		(uuid "060ab1b1-1fcb-4470-a47f-d098bc0c77a9")
 	)
 	(wire
 		(pts
-			(xy 76.2 140.97) (xy 76.2 146.05)
+			(xy 48.26 43.18) (xy 48.26 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb7a2e0-0d94-4100-83fb-8a59387ad1fc")
+	)
+	(wire
+		(pts
+			(xy 67.31 53.34) (xy 67.31 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16023f3d-4a9c-4df4-8e92-29e53cd3200d")
+	)
+	(wire
+		(pts
+			(xy 43.18 116.84) (xy 43.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aa61cfe-3959-4865-9c96-f0c88c95a52f")
+	)
+	(wire
+		(pts
+			(xy 31.75 69.85) (xy 31.75 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4c9119-23c0-458e-b4d0-fbe6765cf99f")
+	)
+	(wire
+		(pts
+			(xy 41.91 109.22) (xy 43.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f50875-0b55-48da-975a-f087dbe846e3")
+	)
+	(wire
+		(pts
+			(xy 95.25 121.92) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21869834-8d3a-440b-ab17-4f7e17fcd682")
+	)
+	(wire
+		(pts
+			(xy 41.91 116.84) (xy 43.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a383868-8f12-4b43-a7ce-af60ed091a8d")
+	)
+	(wire
+		(pts
+			(xy 246.38 20.32) (xy 246.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3ec547-802e-4edb-bc76-1afa85fdf1b3")
+	)
+	(wire
+		(pts
+			(xy 246.38 34.29) (xy 246.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c74eb50-0223-48cd-8d39-53f09a14e3da")
+	)
+	(wire
+		(pts
+			(xy 213.36 20.32) (xy 213.36 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebdb63e-41d6-485e-8138-ffaf6839f152")
+	)
+	(wire
+		(pts
+			(xy 105.41 35.56) (xy 106.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4d2b08-2102-4276-afa9-460e72e0a83f")
+	)
+	(wire
+		(pts
+			(xy 76.2 166.37) (xy 76.2 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1898,7 +2635,37 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 113.03 123.19)
+			(xy 85.09 52.07) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "311e1550-424d-4697-8a25-1bb3d4c2b461")
+	)
+	(wire
+		(pts
+			(xy 87.63 38.1) (xy 90.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318f9dc7-2a0c-40d0-b407-f981cc5b07a3")
+	)
+	(wire
+		(pts
+			(xy 160.02 26.67) (xy 160.02 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bc0e3f-1c4c-499f-a415-522ec7f377a9")
+	)
+	(wire
+		(pts
+			(xy 138.43 148.59) (xy 135.89 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1908,27 +2675,107 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 147.32) (xy 200.66 147.32)
+			(xy 190.5 20.32) (xy 180.34 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "369d38ad-2ef3-452c-a4b8-72bd8cbe757b")
+		(uuid "33baccb3-e7cd-4083-ba2f-46e03873c294")
 	)
 	(wire
 		(pts
-			(xy 187.96 125.73) (xy 200.66 125.73)
+			(xy 106.68 35.56) (xy 106.68 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40b69677-1f62-4aab-bebd-d842270e9b3e")
+		(uuid "33fe9948-10e7-4475-a184-339469ac242d")
 	)
 	(wire
 		(pts
-			(xy 33.02 133.35) (xy 33.02 127)
+			(xy 200.66 151.13) (xy 200.66 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341fe019-cf1a-4102-9fba-cb578af2fe3f")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ec94bd-d8b2-4a95-a902-4dcde91b5f1f")
+	)
+	(wire
+		(pts
+			(xy 213.36 34.29) (xy 213.36 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36242211-8a8b-4eec-a424-8b8077126b48")
+	)
+	(wire
+		(pts
+			(xy 106.68 34.29) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386c1dbb-2798-4d25-8697-88dd2750e614")
+	)
+	(wire
+		(pts
+			(xy 208.28 83.82) (xy 208.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e0219f-d800-4c35-996a-db0183fde6da")
+	)
+	(wire
+		(pts
+			(xy 43.18 109.22) (xy 43.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc27396-0481-4bd6-9d71-565d9c62bad0")
+	)
+	(wire
+		(pts
+			(xy 147.32 163.83) (xy 147.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4cee93-70ee-4e61-8f0d-7284ced4dd8c")
+	)
+	(wire
+		(pts
+			(xy 31.75 68.58) (xy 29.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa3818c-9a45-49fa-91d2-72b921c2abf5")
+	)
+	(wire
+		(pts
+			(xy 41.91 158.75) (xy 41.91 152.4)
 		)
 		(stroke
 			(width 0)
@@ -1938,7 +2785,37 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 113.03) (xy 154.94 113.03)
+			(xy 207.01 134.62) (xy 207.01 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c2f518-9a41-4c45-9138-8326f9bafd5e")
+	)
+	(wire
+		(pts
+			(xy 171.45 100.33) (xy 190.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4367a75d-7b48-421a-988a-460cd5ba2985")
+	)
+	(wire
+		(pts
+			(xy 41.91 114.3) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a06681-065a-46f7-bafd-954fc6f53de2")
+	)
+	(wire
+		(pts
+			(xy 162.56 138.43) (xy 170.18 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1948,7 +2825,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 154.94 113.03)
+			(xy 160.02 20.32) (xy 140.97 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f5690e-d76d-4579-8795-4874e592ac8c")
+	)
+	(wire
+		(pts
+			(xy 170.18 151.13) (xy 170.18 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1958,7 +2845,37 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 140.97) (xy 33.02 140.97)
+			(xy 109.22 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4808bcb5-999a-4886-8e7f-3b3a382d2353")
+	)
+	(wire
+		(pts
+			(xy 77.47 116.84) (xy 77.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4965cc66-e415-4871-8491-ddb12e8de0aa")
+	)
+	(wire
+		(pts
+			(xy 256.54 20.32) (xy 246.38 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8c440e-cf07-4e06-aea8-1a3d6ab0d3dc")
+	)
+	(wire
+		(pts
+			(xy 40.64 166.37) (xy 41.91 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1968,17 +2885,47 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 128.27) (xy 138.43 128.27)
+			(xy 184.15 85.09) (xy 184.15 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b953334-9020-44d7-a4c4-3e0659257d0b")
+		(uuid "513eae9e-6af7-4496-96b5-41820bfb6782")
 	)
 	(wire
 		(pts
-			(xy 77.47 140.97) (xy 76.2 140.97)
+			(xy 137.16 97.79) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ec08f2-7818-463c-a99f-4a58d6778022")
+	)
+	(wire
+		(pts
+			(xy 156.21 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f21bf8-07bd-4bc9-ac8a-b2577dedaff8")
+	)
+	(wire
+		(pts
+			(xy 106.68 34.29) (xy 106.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558df23b-5330-4175-8fdd-d653f90c5698")
+	)
+	(wire
+		(pts
+			(xy 77.47 166.37) (xy 76.2 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1988,27 +2935,37 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 135.89) (xy 245.11 130.81)
+			(xy 85.09 63.5) (xy 90.17 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6134d10f-fd31-4580-91b0-8de04436523f")
+		(uuid "6094dc86-6e73-4981-a853-092aa2f67238")
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 175.26 125.73)
+			(xy 106.68 49.53) (xy 106.68 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "630a78e3-ab0a-4950-b386-c9bda27576fb")
+		(uuid "6209a4f9-0176-4d9b-89d1-fe22305a6651")
 	)
 	(wire
 		(pts
-			(xy 93.98 146.05) (xy 93.98 138.43)
+			(xy 87.63 46.99) (xy 90.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635cc4fd-79ee-424d-aa4e-9f846457e370")
+	)
+	(wire
+		(pts
+			(xy 93.98 171.45) (xy 93.98 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2018,7 +2975,57 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 123.19) (xy 138.43 123.19)
+			(xy 196.85 151.13) (xy 200.66 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c8885a-8d99-4786-9325-be8db0832b14")
+	)
+	(wire
+		(pts
+			(xy 140.97 40.64) (xy 160.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653c30e7-0a05-49e8-8be4-52a0e82be78d")
+	)
+	(wire
+		(pts
+			(xy 113.03 33.02) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f8e059-f357-4732-ba25-4008fae381fa")
+	)
+	(wire
+		(pts
+			(xy 68.58 111.76) (xy 78.74 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b2dbba-533d-4fca-b5be-2cbfaa465c3f")
+	)
+	(wire
+		(pts
+			(xy 77.47 121.92) (xy 95.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69dbff5c-bbc5-4b41-b04f-fe125cf23b21")
+	)
+	(wire
+		(pts
+			(xy 148.59 148.59) (xy 153.67 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2028,7 +3035,107 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 138.43) (xy 228.6 138.43)
+			(xy 118.11 114.3) (xy 148.59 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b78e71f-bdfc-42a7-83f8-46ab2b7b6d6c")
+	)
+	(wire
+		(pts
+			(xy 149.86 97.79) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4ecd14-4580-42bb-a8a3-2c9f1d599543")
+	)
+	(wire
+		(pts
+			(xy 78.74 116.84) (xy 77.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d28eddb-1f1a-4491-a97a-62b8a820ebd9")
+	)
+	(wire
+		(pts
+			(xy 115.57 114.3) (xy 118.11 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de133ae-935a-4ef2-b429-bb6bb3bb3303")
+	)
+	(wire
+		(pts
+			(xy 182.88 135.89) (xy 182.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f6bb0e3-13db-4f2b-af4d-7a1a9955aa75")
+	)
+	(wire
+		(pts
+			(xy 182.88 134.62) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7127993e-0b76-4ffe-bb5b-2cb37c3f7b97")
+	)
+	(wire
+		(pts
+			(xy 41.91 111.76) (xy 68.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7349dc11-4abf-42db-a29b-2e03b008dfdc")
+	)
+	(wire
+		(pts
+			(xy 147.32 97.79) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758ab428-fe29-4753-8628-e16b4e721973")
+	)
+	(wire
+		(pts
+			(xy 190.5 19.05) (xy 190.5 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "769d95f9-d4fb-4e02-a034-ed6de21f13ca")
+	)
+	(wire
+		(pts
+			(xy 238.76 148.59) (xy 265.43 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7991fe18-9d14-4ae2-a186-64541bd9ff8f")
+	)
+	(wire
+		(pts
+			(xy 229.87 148.59) (xy 238.76 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2038,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 137.16) (xy 69.85 135.89)
+			(xy 68.58 162.56) (xy 68.58 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2048,27 +3155,77 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 138.43) (xy 134.62 128.27)
+			(xy 256.54 19.05) (xy 256.54 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c6c1354-ae8b-460f-9884-f49cc6df65aa")
+		(uuid "7d4c298f-a458-4e60-a01e-b08a300d3059")
 	)
 	(wire
 		(pts
-			(xy 200.66 147.32) (xy 200.66 140.97)
+			(xy 106.68 66.04) (xy 106.68 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83c01187-6d6a-45cc-88d6-7631729423a0")
+		(uuid "7f035a97-922d-4636-9656-c143a975e409")
 	)
 	(wire
 		(pts
-			(xy 113.03 123.19) (xy 113.03 125.73)
+			(xy 190.5 41.91) (xy 190.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f95b4a6-bce3-45df-a9d2-0b060054e961")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ff6d24-c2c8-4592-ab17-b92a096670ee")
+	)
+	(wire
+		(pts
+			(xy 207.01 146.05) (xy 214.63 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e49f1e-e7f9-4ef8-a4db-d843634a5c7a")
+	)
+	(wire
+		(pts
+			(xy 147.32 153.67) (xy 153.67 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865e73f0-ddc1-455f-b24f-fef2891da5e9")
+	)
+	(wire
+		(pts
+			(xy 223.52 20.32) (xy 213.36 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdb895f-8bd8-4199-844a-478783a72245")
+	)
+	(wire
+		(pts
+			(xy 135.89 148.59) (xy 135.89 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2078,17 +3235,67 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 135.89) (xy 69.85 135.89)
+			(xy 31.75 63.5) (xy 31.75 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a61a910-9dad-41a3-b3ee-7c3c9e1a50dd")
+		(uuid "92712884-bc1f-42cb-8c71-27125e268373")
 	)
 	(wire
 		(pts
-			(xy 133.35 113.03) (xy 133.35 123.19)
+			(xy 85.09 33.02) (xy 90.17 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93ebf982-8d23-4082-af6e-5d5edd8ad528")
+	)
+	(wire
+		(pts
+			(xy 171.45 100.33) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9724e307-34c3-4079-9e56-395589591502")
+	)
+	(wire
+		(pts
+			(xy 140.97 19.05) (xy 140.97 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "982351e6-9321-4d33-a068-1592f74d1ec2")
+	)
+	(wire
+		(pts
+			(xy 116.84 163.83) (xy 147.32 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993e8bd5-7b20-4495-a5d1-2a6facfcff9f")
+	)
+	(wire
+		(pts
+			(xy 190.5 40.64) (xy 180.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3e6442-90c8-423e-9ec9-72d1d3b79987")
+	)
+	(wire
+		(pts
+			(xy 148.59 138.43) (xy 148.59 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2098,17 +3305,137 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 135.89) (xy 204.47 135.89)
+			(xy 208.28 95.25) (xy 215.9 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a20044df-54a5-4c01-b797-3933e385d626")
+		(uuid "9dd10a5a-6c56-4316-a560-46aed5373ab9")
 	)
 	(wire
 		(pts
-			(xy 153.67 125.73) (xy 154.94 125.73)
+			(xy 67.31 43.18) (xy 67.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1a4a18-8dbf-4ac5-a256-831fae5882ec")
+	)
+	(wire
+		(pts
+			(xy 48.26 53.34) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e3ad910-5dee-4965-9c11-82174978039f")
+	)
+	(wire
+		(pts
+			(xy 184.15 83.82) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d1bc38-400d-4faf-b875-fbeb48c27172")
+	)
+	(wire
+		(pts
+			(xy 139.7 97.79) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e1b5e4-7029-4103-b250-c8e9011bfe51")
+	)
+	(wire
+		(pts
+			(xy 114.3 163.83) (xy 116.84 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47dc864-c198-43a4-8d75-b108e5643c6e")
+	)
+	(wire
+		(pts
+			(xy 170.18 151.13) (xy 189.23 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4cb31f4-df47-440b-9b60-b89f781fe424")
+	)
+	(wire
+		(pts
+			(xy 180.34 34.29) (xy 180.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a954935b-cc43-4290-89ac-4a1858a9372d")
+	)
+	(wire
+		(pts
+			(xy 87.63 68.58) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8eadbc-1afe-4a9a-a223-d7eb6a81c0cf")
+	)
+	(wire
+		(pts
+			(xy 201.93 100.33) (xy 215.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aae824fc-5013-412e-80a4-e0151377a082")
+	)
+	(wire
+		(pts
+			(xy 223.52 19.05) (xy 223.52 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb7acc1-ac7d-4e0d-a0c0-e8ab3a9b214b")
+	)
+	(wire
+		(pts
+			(xy 68.58 161.29) (xy 77.47 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adbc1cd9-9440-45fe-a634-fef57d146510")
+	)
+	(wire
+		(pts
+			(xy 105.41 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1285e54-6756-4531-a580-bce72f278dd9")
+	)
+	(wire
+		(pts
+			(xy 168.91 151.13) (xy 170.18 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2118,17 +3445,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 125.73) (xy 200.66 135.89)
+			(xy 148.59 114.3) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7520250-cbd7-42ec-b0fd-264a519a7ce5")
+		(uuid "b5f7bd3f-8ad5-4521-9c84-69fb72b32762")
 	)
 	(wire
 		(pts
-			(xy 33.02 140.97) (xy 33.02 144.78)
+			(xy 41.91 166.37) (xy 41.91 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2138,17 +3465,57 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 138.43) (xy 248.92 138.43)
+			(xy 95.25 114.3) (xy 93.98 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b82b98c0-2b21-42cc-9377-3ad5c5222f62")
+		(uuid "b97efcd2-5127-4c35-9c79-4a04e2db3e2a")
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 133.35 113.03)
+			(xy 256.54 41.91) (xy 256.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "babd787f-ef79-46e3-8e0b-cea460901d11")
+	)
+	(wire
+		(pts
+			(xy 148.59 102.87) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd835720-a6fc-44a1-b612-13ce637bf85e")
+	)
+	(wire
+		(pts
+			(xy 200.66 160.02) (xy 200.66 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5e5691-ac34-4f80-8565-de2af363a37f")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 67.31 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c087dc5e-8095-47dc-b886-97acde67b95c")
+	)
+	(wire
+		(pts
+			(xy 154.94 138.43) (xy 148.59 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2158,17 +3525,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 140.97) (xy 204.47 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c708052e-3895-4dce-8e60-085828c5e58c")
-	)
-	(wire
-		(pts
-			(xy 31.75 133.35) (xy 33.02 133.35)
+			(xy 40.64 158.75) (xy 41.91 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2178,17 +3535,137 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 135.89) (xy 245.11 135.89)
+			(xy 223.52 40.64) (xy 213.36 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d48aae5f-631c-4c8c-8a82-09eb48035992")
+		(uuid "ca023b5b-0cef-435a-aca9-8a1a31214c38")
 	)
 	(wire
 		(pts
-			(xy 76.2 146.05) (xy 93.98 146.05)
+			(xy 180.34 20.32) (xy 180.34 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d315a2e8-a7a4-4c0c-b867-ef8e041f9080")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 149.86 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d653c386-bb10-40ca-bb4f-89903df8eb84")
+	)
+	(wire
+		(pts
+			(xy 163.83 87.63) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7268975-1b11-4e0a-9685-20311bc45e13")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 68.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9559daa-3426-4df1-8521-c8affa75a243")
+	)
+	(wire
+		(pts
+			(xy 85.09 82.55) (xy 90.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da138f6a-02ef-4e96-b17e-d92cbad12502")
+	)
+	(wire
+		(pts
+			(xy 68.58 113.03) (xy 68.58 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2c43da-540d-4289-b680-581772ea7306")
+	)
+	(wire
+		(pts
+			(xy 67.31 68.58) (xy 67.31 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1b8585-89f4-4371-a73e-04a76a280ebe")
+	)
+	(wire
+		(pts
+			(xy 160.02 40.64) (xy 160.02 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db533ac5-650c-49b2-ab82-b1e026ea637c")
+	)
+	(wire
+		(pts
+			(xy 201.93 109.22) (xy 201.93 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc711991-71fb-41cc-81b2-d06b9203d394")
+	)
+	(wire
+		(pts
+			(xy 240.03 92.71) (xy 240.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddeb642c-8ba8-4f0b-bbe0-4e912585fe83")
+	)
+	(wire
+		(pts
+			(xy 48.26 55.88) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0100270-affa-47d7-a9ea-57362d08e852")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 106.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e052d3fc-c43d-459c-8b39-9c65c776e7f6")
+	)
+	(wire
+		(pts
+			(xy 76.2 171.45) (xy 93.98 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2198,7 +3675,57 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 133.35) (xy 228.6 138.43)
+			(xy 201.93 100.33) (xy 201.93 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2edb7f0-aec0-4c2c-b393-927855d239eb")
+	)
+	(wire
+		(pts
+			(xy 113.03 34.29) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ed68d5-eaa2-46de-8b0e-9e20aa48c6ce")
+	)
+	(wire
+		(pts
+			(xy 223.52 41.91) (xy 223.52 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d2315a-f725-43ce-b814-5b0f861b5cbb")
+	)
+	(wire
+		(pts
+			(xy 256.54 40.64) (xy 246.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e949f41e-b92e-43a8-9b57-5a5616ea24e3")
+	)
+	(wire
+		(pts
+			(xy 200.66 151.13) (xy 214.63 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea628735-13ef-4618-a237-d3fd00cf1146")
+	)
+	(wire
+		(pts
+			(xy 238.76 143.51) (xy 238.76 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2208,17 +3735,47 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 148.59) (xy 175.26 147.32)
+			(xy 231.14 97.79) (xy 240.03 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f537e664-2e8d-4dbc-a5f1-ca66fccdf967")
+		(uuid "ede51415-3c50-4314-b973-c2ea19f30017")
 	)
 	(wire
 		(pts
-			(xy 127 123.19) (xy 133.35 123.19)
+			(xy 40.64 161.29) (xy 68.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f035d898-d822-40b1-9717-62569e75b2df")
+	)
+	(wire
+		(pts
+			(xy 48.26 67.31) (xy 48.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dda61c-c20e-4ac1-8a87-26a128d0d91f")
+	)
+	(wire
+		(pts
+			(xy 198.12 100.33) (xy 201.93 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f577a4da-8bb4-4f8d-adda-3ac48016f0ca")
+	)
+	(wire
+		(pts
+			(xy 146.05 148.59) (xy 148.59 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2228,17 +3785,47 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 125.73) (xy 187.96 125.73)
+			(xy 170.18 100.33) (xy 171.45 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "faeeed7f-328e-4e1c-82ac-96936a867217")
+		(uuid "f67b66dc-bfe5-4bd0-b591-5a4fb0dbc712")
 	)
 	(wire
 		(pts
-			(xy 93.98 138.43) (xy 92.71 138.43)
+			(xy 240.03 97.79) (xy 265.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b1c812-37e3-4fc3-817f-9c226e1a846a")
+	)
+	(wire
+		(pts
+			(xy 48.26 55.88) (xy 49.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc5096a6-ed1a-4837-ac19-1a6d5ccb5eb5")
+	)
+	(wire
+		(pts
+			(xy 118.11 121.92) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff37c6ae-438b-480b-b719-f2344d22ea1e")
+	)
+	(wire
+		(pts
+			(xy 93.98 163.83) (xy 92.71 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +3834,7 @@
 		(uuid "ff70e6ec-f19d-47ed-a3ab-2cea0ce03e97")
 	)
 	(label "Temperature_2"
-		(at 34.29 138.43 0)
+		(at 43.18 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2256,8 +3843,58 @@
 		)
 		(uuid "0e9c653c-16a5-4bf4-a7b9-2b53a0e83de6")
 	)
+	(label "Temperature_2"
+		(at 44.45 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "163c4923-8d60-49e8-a916-9149eb16d605")
+	)
+	(label "BPS_1"
+		(at 85.09 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2647f2e0-3c3b-4f1b-ae66-e56cc811a5d6")
+	)
+	(label "4.25V"
+		(at 68.58 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38060bc9-6c3d-4bad-b935-936322cfb2dc")
+	)
+	(label "Vref_brake"
+		(at 194.31 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3854cedb-e2af-483b-b9bd-7b98fa464eb8")
+	)
+	(label "Vref_brake"
+		(at 195.58 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bb1837e-014c-42a7-b24c-57e6e3e3a702")
+	)
 	(label "BPS_2"
-		(at 110.49 138.43 180)
+		(at 105.41 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2267,7 +3904,7 @@
 		(uuid "43c2d7b3-be5a-4ee1-b7cc-c546f49d5ade")
 	)
 	(label "Raw_BPS_2"
-		(at 60.96 135.89 180)
+		(at 54.61 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2276,28 +3913,428 @@
 		)
 		(uuid "5aa4d69e-cddb-4d0c-8613-b52324617625")
 	)
-	(label "Vref_brake"
-		(at 182.88 147.32 0)
+	(label "4.25V"
+		(at 87.63 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f7a5279-519a-4939-be93-2ffd59d635b0")
+	)
+	(label "BPS_1"
+		(at 85.09 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70a97611-c37f-4aa1-bbf1-fe342bc0504b")
+	)
+	(label "0.75V"
+		(at 49.53 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9f422544-e865-4bb8-ab9e-f0ac17eea5b5")
+		(uuid "856164ff-1637-46e5-b2ca-ee1325581e76")
+	)
+	(label "Raw_BPS_2"
+		(at 55.88 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "868507f8-1537-4c18-b2b3-e2fcd337c204")
+	)
+	(label "4.25V"
+		(at 87.63 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8938346a-1cb1-4116-a0db-deba872b2592")
+	)
+	(label "BPS_2"
+		(at 85.09 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9254b075-a179-4bca-9c9d-9d36cb6fd382")
+	)
+	(label "0.75V"
+		(at 87.63 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93704b5e-04cc-4c3c-abf0-859fc3020cf8")
+	)
+	(label "BPS_2"
+		(at 105.41 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9514f71f-3358-479e-8bab-fe3276619fcb")
+	)
+	(label "BPS_2_out"
+		(at 262.89 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96d66f22-3ee5-4857-9445-e8da9ad588ee")
+	)
+	(label "BPS_2_out"
+		(at 262.89 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0bcbc97-e4a2-4d49-96e6-c19ee205a7ed")
+	)
+	(label "BPS_2"
+		(at 85.09 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bdc00c3e-b730-4538-9871-59846ab6b596")
+	)
+	(label "0.75V"
+		(at 87.63 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f55a6316-de01-40f6-8799-d94e83c0a1d5")
+	)
+	(hierarchical_label "SCS-fault"
+		(shape input)
+		(at 265.43 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a863e7f-5fc8-4a22-a242-339f9cd452be")
+	)
+	(hierarchical_label "SCS-fault"
+		(shape input)
+		(at 109.22 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a15d2751-3ab1-467c-8ad0-2d13040fda28")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 187.96 129.54 0)
+		(lib_id "power:+5V")
+		(at 140.97 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d7b3b32-b4b4-45a3-b982-1b6796dfc2a2")
+		(property "Reference" "#PWR041"
+			(at 140.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 143.51 14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a653457-d27d-4694-aa5d-c3078ec887cf")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 256.54 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e99b9d0-b0fa-45a6-9c5f-9ef9ebd87632")
+		(property "Reference" "#PWR010"
+			(at 256.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 256.032 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 256.54 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bee9723-c720-404c-a134-4bd642e7c7f9")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV9062QDGKRQ1:TLV9062QDGKRQ1")
+		(at 78.74 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "00d490d3-18e3-41f1-9b6c-fcc3ba40e8db")
-		(property "Reference" "C14"
-			(at 191.77 128.2699 0)
+		(uuid "19ee4c6d-9aa7-4773-ba92-3c682b20761d")
+		(property "Reference" "IC2"
+			(at 86.36 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062QDGKRQ1"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TLV9062QDGKRQ1:SOP65P490X110-8N"
+			(at 102.87 206.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062-q1.pdf?ts=1623231517275&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTLV9062QDGKRQ1"
+			(at 102.87 306.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifiers - Op Amps AEC-Q100, 2-channel, 10-MHz, low-noise, RRIO, CMOS operational amplifier 8-VSSOP -40 to 125"
+			(at 84.074 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 102.87 506.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9062QDGKRQ1"
+			(at 102.87 606.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9062QDGKRQ1?qs=iLbezkQI%252BshxdLovFCimTg%3D%3D"
+			(at 102.87 706.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 102.87 806.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV9062QDGKRQ1"
+			(at 102.87 906.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fa4f1ab5-3f69-4f15-9b20-c5fb67667ad5")
+		)
+		(pin "5"
+			(uuid "995c9f40-748c-43e3-9472-d0324fac0cc9")
+		)
+		(pin "6"
+			(uuid "8253d337-b01b-4db3-8cf4-453c19ac03dd")
+		)
+		(pin "1"
+			(uuid "a31639ec-19c5-44e7-bc5a-7bad3c8f7cb6")
+		)
+		(pin "2"
+			(uuid "a7a8059a-4f6e-4971-a9c3-4b18f19a2411")
+		)
+		(pin "7"
+			(uuid "d4070b7b-f656-4a9b-b74b-298ecd73e536")
+		)
+		(pin "4"
+			(uuid "80ff20c8-427a-4348-86e2-9f38b7aab262")
+		)
+		(pin "8"
+			(uuid "b7db4ff8-94f0-418e-8011-f7f7af2da74d")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 116.84 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba0ebed-e635-4a77-b515-36caffd07f4f")
+		(property "Reference" "C4"
+			(at 120.142 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +4343,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 191.77 130.8099 0)
+			(at 120.142 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +4352,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 188.9252 133.35 0)
+			(at 117.8052 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,7 +4361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 187.96 129.54 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +4370,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 187.96 129.54 0)
+			(at 116.84 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2342,47 +4379,50 @@
 			)
 		)
 		(pin "1"
-			(uuid "eef09c4e-8797-4d2f-9585-f5eb96cb1c45")
+			(uuid "6e3c632d-cf1d-4f58-8f93-849e78f02ee5")
 		)
 		(pin "2"
-			(uuid "2514fac1-6ab6-45c6-9235-97ecb96289b9")
+			(uuid "18004677-f0e6-4cbb-861b-ed84d4a228c9")
 		)
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "C14")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 179.07 125.73 90)
+		(lib_id "Device:C")
+		(at 246.38 30.48 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0c625fef-a68c-474f-8959-16ddda0df3ed")
-		(property "Reference" "R14"
-			(at 179.07 128.524 90)
+		(uuid "1bc61e57-5e85-437a-afb5-622f8b6fe423")
+		(property "Reference" "C2"
+			(at 242.57 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 179.07 131.064 90)
+		(property "Value" "10uF"
+			(at 242.57 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 179.324 124.714 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 245.4148 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +4431,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 125.73 0)
+			(at 246.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,8 +4439,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 179.07 125.73 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,15 +4449,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a36c2a4e-977f-4fa2-9433-b358ef958205")
+			(uuid "a66eaf2b-0e62-42c3-8805-493f3eea4e6c")
 		)
 		(pin "1"
-			(uuid "b590fde0-0ca7-4311-a37a-73d75123cf38")
+			(uuid "1968a4f4-9983-4b07-940c-ce4cbb810b5b")
 		)
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "R14")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2425,15 +4465,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 175.26 152.4 180)
+		(at 182.88 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1cbffb07-aa67-479b-b310-b0a14b7da8e4")
-		(property "Reference" "R17"
-			(at 179.07 153.416 0)
+		(property "Reference" "R11"
+			(at 186.69 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +4481,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 179.07 150.876 0)
+			(at 186.69 138.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +4489,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 174.244 152.146 90)
+			(at 181.864 139.446 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +4498,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 152.4 0)
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +4507,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 175.26 152.4 0)
+			(at 182.88 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,24 +4524,41 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "R17")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 33.02 127 0)
+		(lib_id "Device:R_US")
+		(at 240.03 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21e4cd39-d106-4dbd-b122-373152b2b305")
-		(property "Reference" "#PWR048"
-			(at 33.02 130.81 0)
+		(uuid "2029b48c-eb50-4b32-ba0b-b4611044044f")
+		(property "Reference" "R4"
+			(at 234.442 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 234.442 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.046 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,8 +4566,60 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 33.02 121.92 0)
+		(property "Datasheet" "~"
+			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "063a42fa-6ba7-4e48-837b-8c7769950105")
+		)
+		(pin "1"
+			(uuid "bfd74897-9afc-42ca-8f6a-7befa5d68413")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 31.75 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20999c9a-c614-4bdd-b9bc-d043780785d7")
+		(property "Reference" "#PWR027"
+			(at 31.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.068 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +4627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 127 0)
+			(at 31.75 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +4636,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 127 0)
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05b91775-fd36-4aba-81d6-be72e34e9065")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 41.91 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21e4cd39-d106-4dbd-b122-373152b2b305")
+		(property "Reference" "#PWR019"
+			(at 41.91 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 41.91 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +4711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 33.02 127 0)
+			(at 41.91 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,23 +4725,1322 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "#PWR048")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 40.64 138.43 180)
+		(lib_id "Device:C")
+		(at 160.02 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5389f828-9d11-4df7-b74e-d76af0906a31")
-		(property "Reference" "TP5"
-			(at 39.624 141.986 0)
+		(fields_autoplaced yes)
+		(uuid "22231aad-dc90-4d83-91ff-a5d2d9e3df12")
+		(property "Reference" "C7"
+			(at 163.83 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 163.83 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 160.9852 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2a2969b-d56c-4881-a1a5-412ae43122bb")
+		)
+		(pin "1"
+			(uuid "4c4b00fd-e5d4-46b6-8cb1-3169aaff9c1b")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "233ca240-3fb3-487f-bfeb-8600c52869cf")
+		(property "Reference" "#PWR028"
+			(at 190.5 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b983f5ee-6f73-4e1f-bfde-5f801aa43c37")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "296f76ad-7581-4159-90f6-24b3b8f8db5d")
+		(property "Reference" "C1"
+			(at 121.412 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 121.412 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 119.0752 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc89d753-a070-4a9e-9308-f72af293c9f3")
+		)
+		(pin "2"
+			(uuid "bf03f3ac-e8bf-4a00-8730-01d0d9c49cc0")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM339LVDR:LM339LVDR")
+		(at 90.17 33.02 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ae46420-9cda-4219-9b6b-30beca92adbd")
+		(property "Reference" "IC5"
+			(at 97.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVDR"
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 114.3 127.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 227.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.65 V to 5.5 V supply range  Rail-to-Rail input with Failsafe  Low input offset voltage 400 uV typical  600ns typical propagation delay  Low quiescent current 25 A/Ch typical  Low input bias current 5 pA typical  Open-drain outpu"
+			(at 93.218 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 114.3 427.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM339LVDR"
+			(at 114.3 527.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM339LVDR?qs=HoCaDK9Nz5cbip49m4%2Faqw%3D%3D"
+			(at 114.3 627.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 114.3 727.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM339LVDR"
+			(at 114.3 827.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "b349c556-db5f-4b42-9315-ae482344f1a3")
+		)
+		(pin "3"
+			(uuid "83c3de88-a5c8-4f16-8284-3d074cd7b831")
+		)
+		(pin "2"
+			(uuid "16837ff9-4739-4cd6-8fb4-f787b77e2854")
+		)
+		(pin "4"
+			(uuid "38cc6749-e465-493e-b769-d3f8e704301f")
+		)
+		(pin "5"
+			(uuid "b2e029f7-9f22-4a9d-8ab8-3f7df5db1501")
+		)
+		(pin "10"
+			(uuid "5eaf521b-6ad7-4f16-8d70-d9b1c6e6728a")
+		)
+		(pin "12"
+			(uuid "bc3062a5-e6a5-4eb0-816d-32dbcc0aec8f")
+		)
+		(pin "13"
+			(uuid "160ade45-0d5f-4f3f-a500-d2411e614ddf")
+		)
+		(pin "8"
+			(uuid "75395ec7-8212-4d31-8c38-76dd9365b900")
+		)
+		(pin "7"
+			(uuid "3a0dfba3-1b80-4f56-ade5-9a08a1c246f2")
+		)
+		(pin "9"
+			(uuid "d4cfff15-2af3-416d-b339-3751f734757e")
+		)
+		(pin "1"
+			(uuid "80dcf3ed-47d9-48bc-b816-696c63e735aa")
+		)
+		(pin "6"
+			(uuid "3e32a6eb-17bb-4b0b-84b4-cd55ebb21f29")
+		)
+		(pin "14"
+			(uuid "54296cc4-2236-473e-9371-436fd5dba892")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:4P Droit 22-11-2042")
+		(at 36.83 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31fb3729-f4db-4614-9b88-bd5faa4069f7")
+		(property "Reference" "J2"
+			(at 33.782 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4P Droit 22-11-2042"
+			(at 30.48 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 30.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"J\" model=\"22-11-2042\" lib=\"\""
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "BD7"
+			(at 30.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 30.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "MOLEX"
+			(at 30.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "4P Droit"
+			(at 40.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-11-2042"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-11-2042"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
+			(at 36.83 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46eaffd9-8e1c-46a4-814b-b43be3ab2c3f")
+		)
+		(pin "2"
+			(uuid "3528aa9d-e6d0-4a2c-956a-7d2e57fc8bf5")
+		)
+		(pin "3"
+			(uuid "fc715370-1771-457f-acd5-3f85b3c6ec76")
+		)
+		(pin "4"
+			(uuid "80ef5034-13a2-45ad-b6a4-6868e762a992")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34743fbf-2a76-46fc-830b-d47ed0336a9f")
+		(property "Reference" "#PWR020"
+			(at 200.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b42d697-14a9-41be-b145-99a63e4d0d42")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 48.26 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3647d21d-4512-4068-92ca-e417c1d107cc")
+		(property "Reference" "#PWR038"
+			(at 48.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 48.26 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b61ed4e-89c0-48e7-a395-b238e1679250")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eda689c-1cc7-4ff4-8b10-ce0550f86766")
+		(property "Reference" "#PWR07"
+			(at 43.18 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c43064b6-9832-44dd-b8d4-934d7c83b9ae")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM339LVDR:LM339LVDR")
+		(at 90.17 63.5 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4114b3eb-05c0-42e6-b8f6-96641855ad67")
+		(property "Reference" "IC6"
+			(at 97.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVDR"
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 114.3 158.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 258.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.65 V to 5.5 V supply range  Rail-to-Rail input with Failsafe  Low input offset voltage 400 uV typical  600ns typical propagation delay  Low quiescent current 25 A/Ch typical  Low input bias current 5 pA typical  Open-drain outpu"
+			(at 93.218 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 114.3 458.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM339LVDR"
+			(at 114.3 558.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM339LVDR?qs=HoCaDK9Nz5cbip49m4%2Faqw%3D%3D"
+			(at 114.3 658.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 114.3 758.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM339LVDR"
+			(at 114.3 858.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa70f148-5fef-489b-bfe9-ce0a0551310a")
+		)
+		(pin "10"
+			(uuid "5c6f1091-9b62-42d0-b73f-1954efa73513")
+		)
+		(pin "8"
+			(uuid "7ce3ef5f-d151-4656-8abc-751b43f8eaa2")
+		)
+		(pin "4"
+			(uuid "e39abdf2-8e08-4aae-8a3b-5fbfada423a4")
+		)
+		(pin "9"
+			(uuid "697d4873-bd0d-44c4-aedc-d4912709c385")
+		)
+		(pin "13"
+			(uuid "e9d726ad-819c-4c70-8b8d-dc97baa251d0")
+		)
+		(pin "5"
+			(uuid "31fdafa2-a720-43c5-98ba-8b4ea7817a84")
+		)
+		(pin "6"
+			(uuid "c89ff21a-e9c3-412f-9c82-09a1c4c57a86")
+		)
+		(pin "14"
+			(uuid "5ff9f77f-3a1b-480f-b04d-c85152e57840")
+		)
+		(pin "11"
+			(uuid "bda0991b-a7ab-476a-9094-5a47f7de7ca9")
+		)
+		(pin "7"
+			(uuid "79119f53-11df-42ed-b4cb-d30e2fbb5df9")
+		)
+		(pin "2"
+			(uuid "c5520a86-6a46-4d92-977c-6741acdf83ab")
+		)
+		(pin "3"
+			(uuid "c899d505-1b3d-42d5-afaa-694b00ea2097")
+		)
+		(pin "12"
+			(uuid "926ade38-d8b1-4f33-99f0-62875b46ce36")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEM_HAS_100-S:Conn_01x02")
+		(at 24.13 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41c10457-a645-4fe7-bffc-c07ea0ecfad0")
+		(property "Reference" "J6"
+			(at 24.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 24.384 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 24.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e6e0e6-fe37-48a4-85b8-8cc409847450")
+		)
+		(pin "2"
+			(uuid "8bdd1179-ba95-4265-9deb-558b885e30b2")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42140c40-ad10-402f-b6e4-5e209d075ce9")
+		(property "Reference" "#PWR04"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dc851a8-9f1f-4e04-b667-1d8a3e6f03b0")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a23a0b3-e9b9-4bce-a2d7-5c2887555ce7")
+		(property "Reference" "#PWR021"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3430e0af-243f-47b7-8b29-c9c2e4df8f53")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 223.52 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a935228-b1af-404d-85cd-5bb6d9529a30")
+		(property "Reference" "#PWR017"
+			(at 223.52 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 223.012 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 223.52 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "725660ec-3e64-4c67-97b5-44f78379f350")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV9062QDGKRQ1:TLV9062QDGKRQ1")
+		(at 256.54 30.48 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e608ea4-3544-4119-8d34-c87390597a73")
+		(property "Reference" "IC2"
+			(at 266.446 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062QDGKRQ1"
+			(at 266.446 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TLV9062QDGKRQ1:SOP65P490X110-8N"
+			(at 280.67 125.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062-q1.pdf?ts=1623231517275&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTLV9062QDGKRQ1"
+			(at 280.67 225.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifiers - Op Amps AEC-Q100, 2-channel, 10-MHz, low-noise, RRIO, CMOS operational amplifier 8-VSSOP -40 to 125"
+			(at 261.874 9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 280.67 425.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9062QDGKRQ1"
+			(at 280.67 525.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9062QDGKRQ1?qs=iLbezkQI%252BshxdLovFCimTg%3D%3D"
+			(at 280.67 625.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 280.67 725.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV9062QDGKRQ1"
+			(at 280.67 825.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7a2c8d1d-05d3-42f8-8335-c525b57a0f1e")
+		)
+		(pin "5"
+			(uuid "995c9f40-748c-43e3-9472-d0324fac0cca")
+		)
+		(pin "6"
+			(uuid "8253d337-b01b-4db3-8cf4-453c19ac03de")
+		)
+		(pin "1"
+			(uuid "22a57d70-3848-456b-8266-93bb5bda38cc")
+		)
+		(pin "2"
+			(uuid "713d490f-f328-4e1e-9509-6622ced55729")
+		)
+		(pin "7"
+			(uuid "d4070b7b-f656-4a9b-b74b-298ecd73e537")
+		)
+		(pin "4"
+			(uuid "07c3b6e5-1afe-4179-83d2-d56fa0810b6f")
+		)
+		(pin "8"
+			(uuid "0e718a81-fb24-4c44-aa4c-056af61a440c")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.92 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f7c61b0-def0-43c6-bea2-9c1d79b8c27e")
+		(property "Reference" "TP4"
+			(at 122.936 30.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +6049,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 38.1 140.4621 0)
+			(at 124.46 32.2579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2585,7 +6059,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 35.56 138.43 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2594,7 +6068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 138.43 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +6077,209 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 40.64 138.43 0)
+			(at 121.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "906c0754-69d3-466b-b6d2-19591d79744f")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "507c1bd9-d3da-4cea-887e-1c3cf1b93e4e")
+		(property "Reference" "#PWR08"
+			(at 68.58 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30f3e8a0-cbe9-4d7f-9f49-376546bfef2e")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 201.93 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "526a8670-9d62-4bcb-9846-81bfa2f8e8e3")
+		(property "Reference" "D1"
+			(at 204.47 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V Zener"
+			(at 204.47 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 201.93 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcd9a845-9a4a-4b06-9ae8-81b48f7a7271")
+		)
+		(pin "2"
+			(uuid "0a74b819-ec2a-42ba-aa2d-6da9057801a6")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 49.53 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5389f828-9d11-4df7-b74e-d76af0906a31")
+		(property "Reference" "TP2"
+			(at 48.514 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.99 165.8621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 44.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 49.53 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,40 +6293,307 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TLV9062QDGKRQ1:TLV9062QDGKRQ1")
-		(at 77.47 135.89 0)
+		(lib_id "Device:R_US")
+		(at 67.31 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "76ae5a61-a726-4513-9bc0-77f270c7b257")
-		(property "Reference" "IC9"
-			(at 85.09 128.27 0)
+		(uuid "55bde771-2d98-48cb-accf-a7a134a11e66")
+		(property "Reference" "R23"
+			(at 69.85 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k"
+			(at 69.85 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 68.326 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "338b789a-10d2-4baf-94d3-10903360cb20")
+		)
+		(pin "2"
+			(uuid "16145bba-2808-4c72-ad80-f30a69a18e2a")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "560d12f7-aa96-4c4e-9670-10ad61e50a18")
+		(property "Reference" "#PWR03"
+			(at 184.15 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TLV9062QDGKRQ1"
-			(at 85.09 130.81 0)
+		(property "Footprint" ""
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14c9f2c2-cece-4749-83e6-a853f4b0d50d")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 31.75 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "584048b7-b15d-4292-8c52-83d43eda2a2a")
+		(property "Reference" "#PWR026"
+			(at 31.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 28.702 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LIB_TLV9062QDGKRQ1:SOP65P490X110-8N"
-			(at 101.6 230.81 0)
+		(property "Footprint" ""
+			(at 31.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 31.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51dd7569-f061-4027-a9d2-290b62724dfb")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 111.76 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cb9c12a-c9c6-41c4-82d6-86f5081157ae")
+		(property "Reference" "R7"
+			(at 111.76 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 111.76 119.634 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 112.014 113.284 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 111.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b19d8f6f-6006-4713-ad15-468cd010a566")
+		)
+		(pin "1"
+			(uuid "b32f4f36-63aa-4f8e-b1dd-86362411e6e0")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM339LVDR:LM339LVDR")
+		(at 90.17 46.99 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5df0ec61-0730-4fa1-bebb-1337eed8cf2c")
+		(property "Reference" "IC5"
+			(at 98.806 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVDR"
+			(at 98.806 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 114.3 141.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,8 +6602,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062-q1.pdf?ts=1623231517275&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTLV9062QDGKRQ1"
-			(at 101.6 330.81 0)
+		(property "Datasheet" ""
+			(at 114.3 241.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,8 +6612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Operational Amplifiers - Op Amps AEC-Q100, 2-channel, 10-MHz, low-noise, RRIO, CMOS operational amplifier 8-VSSOP -40 to 125"
-			(at 82.804 115.062 0)
+		(property "Description" "1.65 V to 5.5 V supply range  Rail-to-Rail input with Failsafe  Low input offset voltage 400 uV typical  600ns typical propagation delay  Low quiescent current 25 A/Ch typical  Low input bias current 5 pA typical  Open-drain outpu"
+			(at 93.218 23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,18 +6621,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.1"
-			(at 101.6 530.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TLV9062QDGKRQ1"
-			(at 101.6 630.81 0)
+		(property "Height" "1.75"
+			(at 114.3 441.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,8 +6631,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9062QDGKRQ1?qs=iLbezkQI%252BshxdLovFCimTg%3D%3D"
-			(at 101.6 730.81 0)
+		(property "Mouser Part Number" "595-LM339LVDR"
+			(at 114.3 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM339LVDR?qs=HoCaDK9Nz5cbip49m4%2Faqw%3D%3D"
+			(at 114.3 641.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +6652,163 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 101.6 830.81 0)
+			(at 114.3 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM339LVDR"
+			(at 114.3 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "157200d1-7341-46c2-9262-7c5426e15899")
+		)
+		(pin "3"
+			(uuid "83c3de88-a5c8-4f16-8284-3d074cd7b835")
+		)
+		(pin "2"
+			(uuid "16837ff9-4739-4cd6-8fb4-f787b77e2858")
+		)
+		(pin "4"
+			(uuid "38cc6749-e465-493e-b769-d3f8e7043023")
+		)
+		(pin "5"
+			(uuid "b2e029f7-9f22-4a9d-8ab8-3f7df5db1505")
+		)
+		(pin "10"
+			(uuid "760587a5-200d-4052-a024-e2a130cba2f2")
+		)
+		(pin "12"
+			(uuid "bc3062a5-e6a5-4eb0-816d-32dbcc0aec93")
+		)
+		(pin "13"
+			(uuid "142eaa23-d90f-4481-bfa0-b7f00cb95c66")
+		)
+		(pin "8"
+			(uuid "a0e24137-b1d8-4428-bf6c-b3bc1f0529b8")
+		)
+		(pin "7"
+			(uuid "3a0dfba3-1b80-4f56-ade5-9a08a1c246f6")
+		)
+		(pin "9"
+			(uuid "522b5f60-ed70-46db-a252-f2154305226f")
+		)
+		(pin "1"
+			(uuid "80dcf3ed-47d9-48bc-b816-696c63e735ae")
+		)
+		(pin "6"
+			(uuid "3e32a6eb-17bb-4b0b-84b4-cd55ebb21f2d")
+		)
+		(pin "14"
+			(uuid "e911c456-d5b8-4d89-92ad-2e1cdbce105f")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV9062QDGKRQ1:TLV9062QDGKRQ1")
+		(at 154.94 102.87 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5efeec25-1fbe-417e-8fab-1655867f02f7")
+		(property "Reference" "IC2"
+			(at 162.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062QDGKRQ1"
+			(at 162.56 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TLV9062QDGKRQ1:SOP65P490X110-8N"
+			(at 179.07 7.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062-q1.pdf?ts=1623231517275&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTLV9062QDGKRQ1"
+			(at 179.07 -92.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifiers - Op Amps AEC-Q100, 2-channel, 10-MHz, low-noise, RRIO, CMOS operational amplifier 8-VSSOP -40 to 125"
+			(at 160.274 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 179.07 -292.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9062QDGKRQ1"
+			(at 179.07 -392.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9062QDGKRQ1?qs=iLbezkQI%252BshxdLovFCimTg%3D%3D"
+			(at 179.07 -492.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 179.07 -592.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +6818,413 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV9062QDGKRQ1"
-			(at 101.6 930.81 0)
+			(at 179.07 -692.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "da85830e-64e1-4ef5-aff9-93b3ecaf9562")
+		)
+		(pin "5"
+			(uuid "5773f7e6-a661-4273-b990-ab6b39e47556")
+		)
+		(pin "6"
+			(uuid "12b3a311-b02e-40da-adf6-84ced952f776")
+		)
+		(pin "1"
+			(uuid "f8663d48-7b85-4cb7-a2d6-103cd4c109b9")
+		)
+		(pin "2"
+			(uuid "35f9acaf-e8e1-47f0-bae7-a59b2c53d70c")
+		)
+		(pin "7"
+			(uuid "80e974a2-db1b-4396-a9c6-e244c3e7d34b")
+		)
+		(pin "4"
+			(uuid "80ff20c8-427a-4348-86e2-9f38b7aab265")
+		)
+		(pin "8"
+			(uuid "b7db4ff8-94f0-418e-8011-f7f7af2da750")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 184.15 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6755b730-3848-4d53-9044-ea149141b967")
+		(property "Reference" "#PWR01"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 183.642 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "223fe06e-a4d6-4d94-a916-fb065c21b1e3")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV9062QDGKRQ1:TLV9062QDGKRQ1")
+		(at 190.5 30.48 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6943e026-2624-4b10-9987-0cc7a6a6a694")
+		(property "Reference" "IC3"
+			(at 200.406 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062QDGKRQ1"
+			(at 200.406 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TLV9062QDGKRQ1:SOP65P490X110-8N"
+			(at 214.63 125.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062-q1.pdf?ts=1623231517275&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTLV9062QDGKRQ1"
+			(at 214.63 225.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifiers - Op Amps AEC-Q100, 2-channel, 10-MHz, low-noise, RRIO, CMOS operational amplifier 8-VSSOP -40 to 125"
+			(at 195.834 9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 214.63 425.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9062QDGKRQ1"
+			(at 214.63 525.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9062QDGKRQ1?qs=iLbezkQI%252BshxdLovFCimTg%3D%3D"
+			(at 214.63 625.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 214.63 725.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV9062QDGKRQ1"
+			(at 214.63 825.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7a2c8d1d-05d3-42f8-8335-c525b57a0f1e")
+		)
+		(pin "5"
+			(uuid "995c9f40-748c-43e3-9472-d0324fac0cc9")
+		)
+		(pin "6"
+			(uuid "8253d337-b01b-4db3-8cf4-453c19ac03dd")
+		)
+		(pin "1"
+			(uuid "22a57d70-3848-456b-8266-93bb5bda38cc")
+		)
+		(pin "2"
+			(uuid "713d490f-f328-4e1e-9509-6622ced55729")
+		)
+		(pin "7"
+			(uuid "d4070b7b-f656-4a9b-b74b-298ecd73e536")
+		)
+		(pin "4"
+			(uuid "80ff20c8-427a-4348-86e2-9f38b7aab262")
+		)
+		(pin "8"
+			(uuid "b7db4ff8-94f0-418e-8011-f7f7af2da74d")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6be4ba51-0b0d-4f11-9aee-6030bbd2d28d")
+		(property "Reference" "#PWR09"
+			(at 118.11 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62bedc0f-5519-4356-aeb4-b88a4ec29e88")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV9062QDGKRQ1:TLV9062QDGKRQ1")
+		(at 77.47 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ae5a61-a726-4513-9bc0-77f270c7b257")
+		(property "Reference" "IC3"
+			(at 85.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062QDGKRQ1"
+			(at 85.09 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TLV9062QDGKRQ1:SOP65P490X110-8N"
+			(at 101.6 256.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062-q1.pdf?ts=1623231517275&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTLV9062QDGKRQ1"
+			(at 101.6 356.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifiers - Op Amps AEC-Q100, 2-channel, 10-MHz, low-noise, RRIO, CMOS operational amplifier 8-VSSOP -40 to 125"
+			(at 82.804 140.462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 101.6 556.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9062QDGKRQ1"
+			(at 101.6 656.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9062QDGKRQ1?qs=iLbezkQI%252BshxdLovFCimTg%3D%3D"
+			(at 101.6 756.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 101.6 856.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLV9062QDGKRQ1"
+			(at 101.6 956.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2755,24 +7260,23 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "IC9")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 187.96 133.35 0)
+		(lib_id "power:+5V")
+		(at 67.31 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bff647d-33b5-4da9-9cfb-eb065016a52f")
-		(property "Reference" "#PWR046"
-			(at 187.96 139.7 0)
+		(uuid "7d80b341-254b-419a-be88-60a00cbcc7a0")
+		(property "Reference" "#PWR036"
+			(at 67.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,8 +7284,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 187.96 138.43 0)
+		(property "Value" "+5V"
+			(at 67.31 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +7293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 133.35 0)
+			(at 67.31 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +7302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 133.35 0)
+			(at 67.31 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,8 +7310,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 133.35 0)
+		(property "Description" ""
+			(at 67.31 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,28 +7320,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "22322d11-d039-4219-b429-b696f3e0fb3d")
+			(uuid "e51df3e3-60e8-4dcb-917c-04e91e00cb59")
 		)
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "#PWR046")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 69.85 140.97 0)
+		(lib_id "Device:C")
+		(at 180.34 30.48 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "817d8aad-0ca1-4d9b-b5e3-ea86d3891e74")
-		(property "Reference" "R21"
-			(at 63.754 139.446 0)
+		(uuid "7fe10c1a-b433-4745-a436-1fea37afed22")
+		(property "Reference" "C5"
+			(at 176.53 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,8 +7350,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500k"
-			(at 63.5 141.986 0)
+		(property "Value" "10uF"
+			(at 176.53 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2854,8 +7359,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 70.866 141.224 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 179.3748 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +7369,76 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 140.97 0)
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1f15d79-f207-46b9-8f1d-71b929b6acfc")
+		)
+		(pin "1"
+			(uuid "cb225280-9db0-49da-a736-47cdbf377f18")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 68.58 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "817d8aad-0ca1-4d9b-b5e3-ea86d3891e74")
+		(property "Reference" "R16"
+			(at 62.484 164.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500k"
+			(at 62.23 167.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 69.596 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2873,7 +7447,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 69.85 140.97 0)
+			(at 68.58 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,24 +7464,31 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "R21")
+					(reference "R16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 245.11 130.81 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 270.51 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8465f813-69c5-469f-8cab-543aec819feb")
-		(property "Reference" "#PWR08"
-			(at 245.11 134.62 0)
+		(uuid "839be0a6-df96-424c-8d72-2adeb32869a8")
+		(property "Reference" "J4"
+			(at 267.462 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 269.875 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,16 +7496,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 245.11 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 130.81 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,8 +7505,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 245.11 130.81 0)
+		(property "Datasheet" "~"
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,8 +7514,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 245.11 130.81 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 270.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2951,28 +7524,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "67fcc1e4-fd44-44ff-be95-6aae80fe818f")
+			(uuid "e0ab3765-d128-44e2-b8b2-44714d427cd3")
 		)
 		(instances
-			(project "BrakeSignal_PreAmp"
+			(project ""
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "#PWR08")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 175.26 156.21 0)
+		(lib_id "power:+5V")
+		(at 43.18 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a2b6bb74-beb3-46fd-ba24-707a1bb2ad99")
-		(property "Reference" "#PWR06"
-			(at 175.26 162.56 0)
+		(fields_autoplaced yes)
+		(uuid "906eefd9-06af-49aa-82a1-4c703cba0fb2")
+		(property "Reference" "#PWR05"
+			(at 43.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2980,8 +7554,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 170.942 158.496 0)
+		(property "Value" "+5V"
+			(at 43.18 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +7563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 156.21 0)
+			(at 43.18 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +7572,430 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 156.21 0)
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a94ceb41-019f-4289-8298-7807325c3dfd")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM339LVDR:LM339LVDR")
+		(at 223.52 30.48 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a304b88-5c6d-4e5b-9892-a23072b9909d")
+		(property "Reference" "IC1"
+			(at 231.14 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVDR"
+			(at 231.14 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 247.65 125.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 225.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.65 V to 5.5 V supply range  Rail-to-Rail input with Failsafe  Low input offset voltage 400 uV typical  600ns typical propagation delay  Low quiescent current 25 A/Ch typical  Low input bias current 5 pA typical  Open-drain outpu"
+			(at 226.568 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 247.65 425.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM339LVDR"
+			(at 247.65 525.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM339LVDR?qs=HoCaDK9Nz5cbip49m4%2Faqw%3D%3D"
+			(at 247.65 625.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 247.65 725.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM339LVDR"
+			(at 247.65 825.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "c34a40d6-6d81-4aed-bbf1-1995d992dddc")
+		)
+		(pin "10"
+			(uuid "e41a4f9e-f5e8-428f-9aa0-686477350906")
+		)
+		(pin "8"
+			(uuid "1b3c3305-443d-4154-a3a0-60d34eb72c10")
+		)
+		(pin "7"
+			(uuid "5577a945-21a6-43ea-872f-d2c48107f457")
+		)
+		(pin "3"
+			(uuid "0c87a419-97fb-4494-978d-8521cbfd238b")
+		)
+		(pin "13"
+			(uuid "aa28d206-415a-4360-a5e7-725be1bda57b")
+		)
+		(pin "9"
+			(uuid "5e17ba6e-1871-4e15-949c-4ccd6768975c")
+		)
+		(pin "4"
+			(uuid "4f99055c-9212-4f98-942f-74fb87a93ff5")
+		)
+		(pin "14"
+			(uuid "bf0fc24b-37d7-4381-b79d-88c6783a1a2a")
+		)
+		(pin "5"
+			(uuid "1a146b99-3873-424b-82ab-089b439ee661")
+		)
+		(pin "1"
+			(uuid "8f9a3912-bd1f-4646-a1fb-39e5640ecb0b")
+		)
+		(pin "2"
+			(uuid "621c4438-83cc-4d9d-87e8-e15e3acbfa8d")
+		)
+		(pin "6"
+			(uuid "d5bc3b95-3220-4c75-8c22-20eb8b404442")
+		)
+		(pin "11"
+			(uuid "76d90a45-214e-46bb-a13d-dff8f4af3ae0")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC1")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 193.04 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e3e9a6b-964a-4b34-9437-dea482ef3469")
+		(property "Reference" "R14"
+			(at 192.786 146.558 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 192.786 148.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 192.786 152.146 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 193.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "129a5e75-2461-452c-9d4b-466785200624")
+		)
+		(pin "1"
+			(uuid "2f3725bf-6107-45db-96fc-cc55b9d5e626")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a186d0a8-46b2-4a52-96a3-fd3f7e1b74dc")
+		(property "Reference" "R22"
+			(at 69.85 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12k"
+			(at 69.85 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 68.326 49.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90931d7a-9532-4eda-8656-78728e4c82f0")
+		)
+		(pin "2"
+			(uuid "884f0ed2-846a-4b40-9d9d-16555ce040b9")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 113.03 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1fcfdc0-d389-4b2f-b9e3-673f0f9fd579")
+		(property "Reference" "#PWR040"
+			(at 113.03 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 115.57 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6447f4e-dca8-4c57-bf3b-92099093ad2c")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2b6bb74-beb3-46fd-ba24-707a1bb2ad99")
+		(property "Reference" "#PWR016"
+			(at 182.88 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +8004,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 156.21 0)
+			(at 182.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +8018,7 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "#PWR06")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3029,15 +8026,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 125.73 0)
+		(at 135.89 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a3aa14be-cac0-47b7-9a77-524afdfd2767")
-		(property "Reference" "#PWR079"
-			(at 113.03 132.08 0)
+		(property "Reference" "#PWR018"
+			(at 135.89 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3046,7 +8043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 129.54 0)
+			(at 135.89 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +8051,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 125.73 0)
+			(at 135.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +8060,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 125.73 0)
+			(at 135.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +8069,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 125.73 0)
+			(at 135.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,23 +8083,42 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "#PWR079")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 175.26 139.7 0)
+		(lib_id "Device:R_US")
+		(at 48.26 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4eb1dd4-8a48-49a5-86bd-67aa632cb634")
-		(property "Reference" "#PWR05"
-			(at 175.26 143.51 0)
+		(fields_autoplaced yes)
+		(uuid "a885e406-0ff4-4cee-8e32-edd69de10930")
+		(property "Reference" "R24"
+			(at 50.8 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k"
+			(at 50.8 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 49.276 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,8 +8126,125 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 178.308 137.922 0)
+		(property "Datasheet" "~"
+			(at 48.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 48.26 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af517338-0a07-467c-9c41-e67b8e254334")
+		)
+		(pin "2"
+			(uuid "3bc23aba-7fca-4cea-b57c-aa432e893d47")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 270.51 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac79b6ae-3c45-4b0f-bc91-6fead8f21a5a")
+		(property "Reference" "J1"
+			(at 267.462 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 269.875 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 270.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 270.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dfee7fa-435a-4b32-83ef-e62802ba4001")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af28f491-697a-438b-9664-16afe2cb59f9")
+		(property "Reference" "#PWR024"
+			(at 116.84 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,7 +8252,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 139.7 0)
+			(at 116.84 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +8261,209 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 139.7 0)
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99d61a89-be7a-4e33-876a-e8e981d15f0e")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 110.49 163.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af98cb18-c248-4043-a96a-72927916e1cc")
+		(property "Reference" "R15"
+			(at 110.49 166.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 110.49 169.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 110.744 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 110.49 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a591a1a0-571e-4c52-b05f-e289b744ef70")
+		)
+		(pin "1"
+			(uuid "5c78776c-ab66-4975-8b90-7350e9381a79")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 213.36 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b23ebe72-e824-4d2e-bf34-33f24457c763")
+		(property "Reference" "C3"
+			(at 209.55 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 209.55 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 212.3948 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c3a2c32-d275-4a1d-a5ea-6351328e8ee5")
+		)
+		(pin "1"
+			(uuid "9c24d1bb-ac04-4d70-b409-27d284ed3bf7")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 182.88 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4eb1dd4-8a48-49a5-86bd-67aa632cb634")
+		(property "Reference" "#PWR014"
+			(at 182.88 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 182.372 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +8472,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 175.26 139.7 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,49 +8486,41 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "#PWR05")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LEM_HAS_100-S:Conn_01x02")
-		(at 254 135.89 0)
+		(lib_id "Device:R_US")
+		(at 160.02 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bbbcd7e2-335e-4427-94bf-194d77af362d")
-		(property "Reference" "J2"
-			(at 254 133.35 0)
+		(uuid "ba0e0763-02b4-4469-81dd-220eb1dd516c")
+		(property "Reference" "R2"
+			(at 162.052 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 253.746 130.81 0)
+		(property "Value" "8.2k"
+			(at 162.052 84.836 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 254 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 135.89 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 160.274 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,8 +8528,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 254 135.89 0)
+		(property "Datasheet" "~"
+			(at 160.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 160.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,15 +8547,171 @@
 			)
 		)
 		(pin "1"
-			(uuid "51e5d339-2ba4-4953-94e0-fbd64b441425")
+			(uuid "6e1cd548-707f-47eb-ac42-1e166321ad91")
 		)
 		(pin "2"
-			(uuid "f26a1ea3-5211-419c-b8b4-17f6e6a61bef")
+			(uuid "0533d852-392c-48d1-9b70-2a94b41e26c2")
 		)
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "J2")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM339LVDR:LM339LVDR")
+		(at 215.9 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba246527-c614-4f33-b3fe-ff05fc776f2b")
+		(property "Reference" "IC1"
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVDR"
+			(at 223.52 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 240.03 190.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 290.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.65 V to 5.5 V supply range  Rail-to-Rail input with Failsafe  Low input offset voltage 400 uV typical  600ns typical propagation delay  Low quiescent current 25 A/Ch typical  Low input bias current 5 pA typical  Open-drain outpu"
+			(at 218.948 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 240.03 490.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM339LVDR"
+			(at 240.03 590.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM339LVDR?qs=HoCaDK9Nz5cbip49m4%2Faqw%3D%3D"
+			(at 240.03 690.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 240.03 790.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM339LVDR"
+			(at 240.03 890.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "c34a40d6-6d81-4aed-bbf1-1995d992dddc")
+		)
+		(pin "10"
+			(uuid "e41a4f9e-f5e8-428f-9aa0-686477350906")
+		)
+		(pin "8"
+			(uuid "1b3c3305-443d-4154-a3a0-60d34eb72c10")
+		)
+		(pin "7"
+			(uuid "5577a945-21a6-43ea-872f-d2c48107f457")
+		)
+		(pin "3"
+			(uuid "0c87a419-97fb-4494-978d-8521cbfd238b")
+		)
+		(pin "13"
+			(uuid "aa28d206-415a-4360-a5e7-725be1bda57b")
+		)
+		(pin "9"
+			(uuid "5e17ba6e-1871-4e15-949c-4ccd6768975c")
+		)
+		(pin "4"
+			(uuid "a8cef1ce-7cdb-4e91-bb1b-48025eee410d")
+		)
+		(pin "14"
+			(uuid "bf0fc24b-37d7-4381-b79d-88c6783a1a2a")
+		)
+		(pin "5"
+			(uuid "e4d6c222-1cef-4ffb-ab88-5cb2185106d4")
+		)
+		(pin "1"
+			(uuid "8f9a3912-bd1f-4646-a1fb-39e5640ecb0b")
+		)
+		(pin "2"
+			(uuid "fc887d45-74db-4aaf-91ca-f59a1959898f")
+		)
+		(pin "6"
+			(uuid "d5bc3b95-3220-4c75-8c22-20eb8b404442")
+		)
+		(pin "11"
+			(uuid "76d90a45-214e-46bb-a13d-dff8f4af3ae0")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -3227,7 +8719,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 228.6 125.73 0)
+		(at 238.76 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3235,8 +8727,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bea9b418-6af9-4849-9430-b290afdad743")
-		(property "Reference" "#PWR07"
-			(at 228.6 129.54 0)
+		(property "Reference" "#PWR015"
+			(at 238.76 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +8737,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 228.6 120.65 0)
+			(at 238.76 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +8745,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 125.73 0)
+			(at 238.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +8754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 125.73 0)
+			(at 238.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +8763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 228.6 125.73 0)
+			(at 238.76 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +8777,7 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "#PWR07")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3293,15 +8785,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 144.78 0)
+		(at 41.91 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c442a6e1-5e85-456b-bd76-f73e2ae62cf9")
-		(property "Reference" "#PWR050"
-			(at 33.02 151.13 0)
+		(property "Reference" "#PWR022"
+			(at 41.91 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +8802,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 148.59 0)
+			(at 41.91 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,7 +8810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 144.78 0)
+			(at 41.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +8819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 144.78 0)
+			(at 41.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,7 +8828,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 144.78 0)
+			(at 41.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,23 +8842,180 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "#PWR050")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "LM339LVDR:LM339LVDR")
+		(at 140.97 30.48 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5ede606-a961-4ce9-a6bf-b2e72c465050")
+		(property "Reference" "IC6"
+			(at 146.812 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM339LVDR"
+			(at 146.812 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 165.1 125.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 225.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.65 V to 5.5 V supply range  Rail-to-Rail input with Failsafe  Low input offset voltage 400 uV typical  600ns typical propagation delay  Low quiescent current 25 A/Ch typical  Low input bias current 5 pA typical  Open-drain outpu"
+			(at 144.018 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 165.1 425.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM339LVDR"
+			(at 165.1 525.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM339LVDR?qs=HoCaDK9Nz5cbip49m4%2Faqw%3D%3D"
+			(at 165.1 625.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 165.1 725.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM339LVDR"
+			(at 165.1 825.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "b349c556-db5f-4b42-9315-ae482344f1a6")
+		)
+		(pin "3"
+			(uuid "3320bf41-686e-4790-8a72-b1bca6dd96cc")
+		)
+		(pin "2"
+			(uuid "16837ff9-4739-4cd6-8fb4-f787b77e2857")
+		)
+		(pin "4"
+			(uuid "38cc6749-e465-493e-b769-d3f8e7043022")
+		)
+		(pin "5"
+			(uuid "b2e029f7-9f22-4a9d-8ab8-3f7df5db1504")
+		)
+		(pin "10"
+			(uuid "5eaf521b-6ad7-4f16-8d70-d9b1c6e6728d")
+		)
+		(pin "12"
+			(uuid "9a861a27-d356-4412-b861-d4ee822072dc")
+		)
+		(pin "13"
+			(uuid "160ade45-0d5f-4f3f-a500-d2411e614de2")
+		)
+		(pin "8"
+			(uuid "a0e24137-b1d8-4428-bf6c-b3bc1f0529b7")
+		)
+		(pin "7"
+			(uuid "3a0dfba3-1b80-4f56-ade5-9a08a1c246f5")
+		)
+		(pin "9"
+			(uuid "522b5f60-ed70-46db-a252-f2154305226e")
+		)
+		(pin "1"
+			(uuid "80dcf3ed-47d9-48bc-b816-696c63e735ad")
+		)
+		(pin "6"
+			(uuid "3e32a6eb-17bb-4b0b-84b4-cd55ebb21f2c")
+		)
+		(pin "14"
+			(uuid "e911c456-d5b8-4d89-92ad-2e1cdbce105e")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC6")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 69.85 144.78 0)
+		(at 68.58 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c76d5df9-b4c2-4d9e-bb88-dce9c01a7cd7")
-		(property "Reference" "#PWR049"
-			(at 69.85 151.13 0)
+		(property "Reference" "#PWR023"
+			(at 68.58 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +9024,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 148.59 0)
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,7 +9032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 144.78 0)
+			(at 68.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,7 +9041,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 144.78 0)
+			(at 68.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3401,7 +9050,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 144.78 0)
+			(at 68.58 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +9064,7 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "#PWR049")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3423,15 +9072,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 143.51 113.03 90)
+		(at 158.75 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c8a4f412-41b4-4223-bfc9-a6b1463480a3")
-		(property "Reference" "R37"
-			(at 145.542 107.95 90)
+		(property "Reference" "R10"
+			(at 160.782 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +9089,7 @@
 			)
 		)
 		(property "Value" "8.2k"
-			(at 145.542 110.236 90)
+			(at 160.782 135.636 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +9098,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 143.764 112.014 90)
+			(at 159.004 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +9107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 113.03 0)
+			(at 158.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +9116,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 143.51 113.03 0)
+			(at 158.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3484,7 +9133,7 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "R37")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3492,16 +9141,16 @@
 	)
 	(symbol
 		(lib_id "LM339LVDR:LM339LVDR")
-		(at 204.47 135.89 0)
-		(unit 1)
+		(at 214.63 146.05 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb3db2c3-7270-490a-960e-efc0ae1e07e4")
-		(property "Reference" "IC2"
-			(at 212.09 128.27 0)
+		(property "Reference" "IC1"
+			(at 222.25 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +9158,7 @@
 			)
 		)
 		(property "Value" "LM339LVDR"
-			(at 212.09 130.81 0)
+			(at 222.25 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +9166,7 @@
 			)
 		)
 		(property "Footprint" "SOIC127P600X175-14N"
-			(at 228.6 230.81 0)
+			(at 238.76 240.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +9176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 330.81 0)
+			(at 238.76 340.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +9186,7 @@
 			)
 		)
 		(property "Description" "1.65 V to 5.5 V supply range  Rail-to-Rail input with Failsafe  Low input offset voltage 400 uV typical  600ns typical propagation delay  Low quiescent current 25 A/Ch typical  Low input bias current 5 pA typical  Open-drain outpu"
-			(at 207.518 112.776 0)
+			(at 217.678 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +9195,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 228.6 530.81 0)
+			(at 238.76 540.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +9205,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-LM339LVDR"
-			(at 228.6 630.81 0)
+			(at 238.76 640.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +9215,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM339LVDR?qs=HoCaDK9Nz5cbip49m4%2Faqw%3D%3D"
-			(at 228.6 730.81 0)
+			(at 238.76 740.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +9225,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 228.6 830.81 0)
+			(at 238.76 840.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +9235,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LM339LVDR"
-			(at 228.6 930.81 0)
+			(at 238.76 940.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,23 +9289,24 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "IC2")
-					(unit 1)
+					(reference "IC1")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 123.19 123.19 90)
+		(at 48.26 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0be0d95-70a3-48e4-9d23-79736868881d")
-		(property "Reference" "R36"
-			(at 124.46 126.492 90)
+		(fields_autoplaced yes)
+		(uuid "ce03e664-c237-44ba-b86c-d294abf96a04")
+		(property "Reference" "R25"
+			(at 50.8 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,8 +9314,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 123.952 128.778 90)
+		(property "Value" "12k"
+			(at 50.8 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +9324,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 123.444 122.174 90)
+			(at 49.276 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +9333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 123.19 0)
+			(at 48.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +9342,76 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 123.19 123.19 0)
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abd00bc0-cea5-45bf-9256-649534bc1363")
+		)
+		(pin "2"
+			(uuid "d420a484-8f3d-4db2-b808-e635828e9a20")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 142.24 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0be0d95-70a3-48e4-9d23-79736868881d")
+		(property "Reference" "R13"
+			(at 143.51 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 143.002 154.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 142.494 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 142.24 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3709,40 +9428,637 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "R36")
+					(reference "R13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "TLV9062QDGKRQ1:TLV9062QDGKRQ1")
-		(at 138.43 128.27 0)
-		(mirror x)
-		(unit 2)
+		(lib_id "power:GND")
+		(at 67.31 71.12 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ed8f1fba-89f9-4b0a-9c1f-fd819e7932cf")
-		(property "Reference" "IC14"
-			(at 146.05 135.89 0)
+		(uuid "d6572b40-db99-4cec-8290-1ecdaa946dad")
+		(property "Reference" "#PWR037"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TLV9062QDGKRQ1"
-			(at 146.05 133.35 0)
+		(property "Footprint" ""
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bbb82fe-d92d-4c71-8aa4-6c8ec592ecbf")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 270.51 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d838ed-fedf-44f5-873c-3b3cffdb5930")
+		(property "Reference" "J3"
+			(at 267.462 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LIB_TLV9062QDGKRQ1:SOP65P490X110-8N"
-			(at 162.56 33.35 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 269.875 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 270.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 270.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44a20c59-8337-4b01-94c1-ed1de3550268")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7e7d516-5e91-4981-95d4-dcd31c9ffa7d")
+		(property "Reference" "TP1"
+			(at 49.784 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.26 116.3321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d5ee409-1a6b-4876-a533-821446595479")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 143.51 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db87421e-e9eb-4ef1-9c84-1bbd06574768")
+		(property "Reference" "R5"
+			(at 144.78 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.272 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 143.764 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 143.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02143d8f-c976-4541-95a6-acd1c7d9d972")
+		)
+		(pin "2"
+			(uuid "799d9e3e-daf0-447b-a133-57f19189ecd8")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 184.15 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfd633f1-3a68-4e16-88b7-755be16c3bc8")
+		(property "Reference" "R1"
+			(at 187.96 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 187.96 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 183.134 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3094982-97fc-4bb7-937b-5b82265ebe5a")
+		)
+		(pin "1"
+			(uuid "a5c88097-426c-4216-b8fc-d52a233a4989")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 190.5 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e17e55d8-d4a6-432b-b32f-0d53b75e4742")
+		(property "Reference" "#PWR025"
+			(at 190.5 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 189.992 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 190.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7563f3c3-009a-4ecd-9156-0f231c5e193a")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 240.03 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4ac2bca-c6c1-49e2-8d8b-998a3d3d4294")
+		(property "Reference" "#PWR02"
+			(at 240.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 240.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f42e122-ab81-40af-94f0-cbe8137fabac")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 113.03 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e689cf17-5679-4f8c-a74a-5a6a2123d860")
+		(property "Reference" "R26"
+			(at 115.316 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 115.062 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 114.046 29.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 113.03 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29ba738b-d2e2-492f-8dce-b1770f98b65a")
+		)
+		(pin "2"
+			(uuid "416fd8da-09d0-452d-bc19-b6d31493211c")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 48.26 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8f49dcb-27ae-49ff-9834-f120ddbe7b63")
+		(property "Reference" "#PWR039"
+			(at 48.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a7c41ea-34fe-400a-9026-dc3e1b342a69")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LM339LVDR:LM339LVDR")
+		(at 90.17 77.47 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e95f5ce5-5a0a-4490-ad79-3e8a44e747e3")
+		(property "Reference" "IC6"
+			(at 98.806 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVDR"
+			(at 98.806 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOIC127P600X175-14N"
+			(at 114.3 172.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,8 +10067,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062-q1.pdf?ts=1623231517275&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTLV9062QDGKRQ1"
-			(at 162.56 -66.65 0)
+		(property "Datasheet" ""
+			(at 114.3 272.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,8 +10077,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Operational Amplifiers - Op Amps AEC-Q100, 2-channel, 10-MHz, low-noise, RRIO, CMOS operational amplifier 8-VSSOP -40 to 125"
-			(at 143.764 149.098 0)
+		(property "Description" "1.65 V to 5.5 V supply range  Rail-to-Rail input with Failsafe  Low input offset voltage 400 uV typical  600ns typical propagation delay  Low quiescent current 25 A/Ch typical  Low input bias current 5 pA typical  Open-drain outpu"
+			(at 93.218 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,18 +10086,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.1"
-			(at 162.56 -266.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TLV9062QDGKRQ1"
-			(at 162.56 -366.65 0)
+		(property "Height" "1.75"
+			(at 114.3 472.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,8 +10096,18 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9062QDGKRQ1?qs=iLbezkQI%252BshxdLovFCimTg%3D%3D"
-			(at 162.56 -466.65 0)
+		(property "Mouser Part Number" "595-LM339LVDR"
+			(at 114.3 572.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM339LVDR?qs=HoCaDK9Nz5cbip49m4%2Faqw%3D%3D"
+			(at 114.3 672.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +10117,299 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 162.56 -566.65 0)
+			(at 114.3 772.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LM339LVDR"
+			(at 114.3 872.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9480ece-cf4c-43d7-8730-fd9425873e5a")
+		)
+		(pin "10"
+			(uuid "19b871f3-c9af-4630-89f3-6a9951d55e5d")
+		)
+		(pin "8"
+			(uuid "fe6b7bba-33d7-46ca-bf42-248bbdab04dc")
+		)
+		(pin "4"
+			(uuid "bde260d0-58b1-4367-aa51-dfd82b2365aa")
+		)
+		(pin "9"
+			(uuid "45cf5a18-50bc-4064-93a5-7be7c8b57e21")
+		)
+		(pin "13"
+			(uuid "2ddd7aab-e6da-4281-920f-514dab4449dd")
+		)
+		(pin "5"
+			(uuid "58f861c5-ef3a-46f6-a55c-0f978390e3cb")
+		)
+		(pin "6"
+			(uuid "92bcabd1-3598-4896-b0c7-9dcb1a4ce057")
+		)
+		(pin "14"
+			(uuid "586d8a2b-fb42-410a-b1f7-b12148ab9faf")
+		)
+		(pin "11"
+			(uuid "98579c72-24fa-43b0-980e-09bcbe9640ee")
+		)
+		(pin "7"
+			(uuid "3674a57b-0e9e-4c58-a977-9074d8f5f0c3")
+		)
+		(pin "2"
+			(uuid "52225efa-c09f-40ac-856f-44c5bd6fb588")
+		)
+		(pin "3"
+			(uuid "c899d505-1b3d-42d5-afaa-694b00ea2099")
+		)
+		(pin "12"
+			(uuid "926ade38-d8b1-4f33-99f0-62875b46ce38")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "IC6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec7340fe-1e71-4266-a38d-c6e2b7045351")
+		(property "Reference" "R6"
+			(at 194.056 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "?"
+			(at 194.056 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 194.056 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "835855eb-29c7-4d5c-a969-1b2119f5804b")
+		)
+		(pin "1"
+			(uuid "453ae83e-ea58-41aa-8e7e-ef3209e0e284")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 68.58 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eca9c54c-75ac-46e2-a86e-ad8c56516382")
+		(property "Reference" "R8"
+			(at 62.484 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "500k"
+			(at 62.23 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 69.596 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6498ee9-8fe8-409f-82f4-95b50f8fdb67")
+		)
+		(pin "2"
+			(uuid "4b0dff69-c66a-4adb-aa1e-967096ac21d5")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TLV9062QDGKRQ1:TLV9062QDGKRQ1")
+		(at 153.67 153.67 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed8f1fba-89f9-4b0a-9c1f-fd819e7932cf")
+		(property "Reference" "IC3"
+			(at 161.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062QDGKRQ1"
+			(at 161.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LIB_TLV9062QDGKRQ1:SOP65P490X110-8N"
+			(at 177.8 58.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062-q1.pdf?ts=1623231517275&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTLV9062QDGKRQ1"
+			(at 177.8 -41.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifiers - Op Amps AEC-Q100, 2-channel, 10-MHz, low-noise, RRIO, CMOS operational amplifier 8-VSSOP -40 to 125"
+			(at 159.004 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 177.8 -241.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TLV9062QDGKRQ1"
+			(at 177.8 -341.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9062QDGKRQ1?qs=iLbezkQI%252BshxdLovFCimTg%3D%3D"
+			(at 177.8 -441.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 177.8 -541.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +10419,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV9062QDGKRQ1"
-			(at 162.56 -666.65 0)
+			(at 177.8 -641.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +10455,7 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "IC14")
+					(reference "IC3")
 					(unit 2)
 				)
 			)
@@ -3855,33 +10463,31 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 228.6 129.54 0)
+		(at 184.15 88.9 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f5dc4e48-3bb9-48b6-a835-7cb12f912d2d")
-		(property "Reference" "R1"
-			(at 223.012 128.27 0)
+		(uuid "f154a465-768b-461f-bb2f-0ad3c30d046c")
+		(property "Reference" "R3"
+			(at 187.96 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 223.012 130.81 0)
+		(property "Value" "1k"
+			(at 187.96 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 229.616 129.794 90)
+			(at 183.134 88.646 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +10496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 129.54 0)
+			(at 184.15 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +10505,146 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 228.6 129.54 0)
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4edfe802-5e0d-4079-bb1b-3e8c65068ef0")
+		)
+		(pin "1"
+			(uuid "0a554d07-91ca-4a28-a225-4276234ca565")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener_Small")
+		(at 200.66 157.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f50ec3e9-d867-423d-912c-f52b246d22e7")
+		(property "Reference" "D2"
+			(at 203.2 156.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V Zener"
+			(at 203.2 158.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, small symbol"
+			(at 200.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30be176d-5354-4d06-b809-334b9e734d65")
+		)
+		(pin "2"
+			(uuid "fe927cde-9f71-4609-b7a6-27d49b5eace2")
+		)
+		(instances
+			(project ""
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 238.76 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5dc4e48-3bb9-48b6-a835-7cb12f912d2d")
+		(property "Reference" "R12"
+			(at 233.172 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 233.172 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 239.776 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 238.76 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +10661,7 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "R1")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3924,15 +10669,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 175.26 143.51 180)
+		(at 182.88 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f6b591b2-4c23-4146-87a3-383bdc3bbcd5")
-		(property "Reference" "R16"
-			(at 179.07 144.526 0)
+		(property "Reference" "R9"
+			(at 186.69 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +10685,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 179.07 141.986 0)
+			(at 186.69 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +10693,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 174.244 143.256 90)
+			(at 181.864 130.556 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +10702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 143.51 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +10711,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 175.26 143.51 0)
+			(at 182.88 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +10728,137 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "R16")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb3e1d6b-e729-4771-9c28-7097e4de0263")
+		(property "Reference" "#PWR013"
+			(at 256.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1694d37-4bde-4fd1-8c6d-5e70f759d6ce")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb5409e0-acf4-4e4e-814a-691b06bdc1f3")
+		(property "Reference" "#PWR06"
+			(at 201.93 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 197.612 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fdb2e3e-a039-4cd5-8dbb-b06440aeed95")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3991,15 +10866,15 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:4P Droit 22-11-2042")
-		(at 26.67 138.43 180)
+		(at 35.56 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fce1edb7-cbda-441e-80de-defd7ceefdbf")
-		(property "Reference" "J1"
-			(at 23.622 129.286 0)
+		(property "Reference" "J5"
+			(at 32.512 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +10883,7 @@
 			)
 		)
 		(property "Value" "4P Droit 22-11-2042"
-			(at 20.32 130.81 0)
+			(at 29.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +10893,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 20.32 135.89 0)
+			(at 29.21 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +10903,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
-			(at 26.67 138.43 0)
+			(at 35.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4038,7 +10913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 138.43 0)
+			(at 35.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4047,7 +10922,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
-			(at 26.67 138.43 0)
+			(at 35.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +10931,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 20.32 146.05 0)
+			(at 29.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4066,7 +10941,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"J\" model=\"22-11-2042\" lib=\"\""
-			(at 26.67 138.43 0)
+			(at 35.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +10950,7 @@
 			)
 		)
 		(property "PARTREV" "BD7"
-			(at 20.32 140.97 0)
+			(at 29.21 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +10960,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendation"
-			(at 20.32 133.35 0)
+			(at 29.21 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +10970,7 @@
 			)
 		)
 		(property "MANUFACTURER" "MOLEX"
-			(at 20.32 138.43 0)
+			(at 29.21 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +10980,7 @@
 			)
 		)
 		(property "Render Name" "4P Droit"
-			(at 30.48 130.81 0)
+			(at 39.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +10990,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 26.67 138.43 0)
+			(at 35.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +11000,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "22-11-2042"
-			(at 26.67 138.43 0)
+			(at 35.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,7 +11010,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-22-11-2042"
-			(at 26.67 138.43 0)
+			(at 35.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +11020,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
-			(at 26.67 138.43 0)
+			(at 35.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +11044,72 @@
 		(instances
 			(project "BrakeSignal_PreAmp"
 				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
-					(reference "J1")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdc3de80-26d8-483b-a7ac-572f52b880ea")
+		(property "Reference" "#PWR042"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97ecc416-0492-45f0-90c6-b7d6dc413b5a")
+		)
+		(instances
+			(project "BrakeSignal_PreAmp"
+				(path "/230ee897-3e86-40e2-9127-469c3cbe993e"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
